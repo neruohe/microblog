@@ -1,3 +1,5 @@
-from app import manager
+from app import db, manager
 
-manager.run()
+if __name__ == '__main__':
+    manager.run()
+
